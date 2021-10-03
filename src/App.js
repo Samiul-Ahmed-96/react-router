@@ -23,13 +23,16 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
           <Route>
             <PageNotFound></PageNotFound>
           </Route>
+
         </Switch>
       </BrowserRouter>
     </div>
   );
 }
-
 export default App;
