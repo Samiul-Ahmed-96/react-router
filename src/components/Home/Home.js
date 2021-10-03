@@ -1,9 +1,10 @@
 import React from 'react';
+import Users from '../Users/Users';
 
 const Home = () => {
     return (
         <div>
-            <h3>This is Home</h3>
+            <Users></Users>
         </div>
     );
 };
